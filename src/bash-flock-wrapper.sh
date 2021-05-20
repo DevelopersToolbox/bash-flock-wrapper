@@ -38,6 +38,7 @@ function actual_script()
 # The following global variables are used simple to make the header look nice.     #
 # -------------------------------------------------------------------------------- #
 
+# shellcheck disable=SC2155
 readonly PROGNAME=$(basename "$0")
 readonly LOCKFILE_DIR=/tmp
 readonly LOCK_FD=200
